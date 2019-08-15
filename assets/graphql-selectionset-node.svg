@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720px" height="179px" viewBox="0 0 720 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>graphql-selectionset-node</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="48.8755673%" x2="0%" y2="48.8755673%" id="linearGradient-1">
+            <stop stop-color="#FAF0FA" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F9ECF9" stop-opacity="0.796028191" offset="14.794844%"></stop>
+            <stop stop-color="#F4DEF4" stop-opacity="0.924314283" offset="75.4804604%"></stop>
+            <stop stop-color="#F3DCF3" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-3" transform="translate(-61.000000, -268.000000)">
+            <g id="Group-2" transform="translate(168.000000, 297.000000)">
+                <path d="M1.06276521,49.1493136 C-2.36750951,49.1493136 2.5061087,49.1493136 15.6836198,49.1493136 C130.239895,49.1493136 95.4926632,10.6171871 160.554335,1.07090791 C170.285884,-0.356969302 177.101105,-0.356969302 181,1.07090791 L181,122.00867 C177.101105,123.330443 170.285884,123.330443 160.554335,122.00867 C95.2294476,113.136011 130.239895,72.7103221 15.6836198,72.7103221 C4.25537815,72.7103221 -0.61824006,72.7103221 1.06276521,72.7103221 L1.06276521,49.1493136 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                <g id="Group" transform="translate(166.000000, 4.000000)">
+                    <text id="FieldNode" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="18" font-weight="bold" letter-spacing="0.2842105" fill="#F0647D">
+                        <tspan x="0" y="18">FieldNode</tspan>
+                    </text>
+                    <text id="field" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="18" font-weight="bold" letter-spacing="0.2842105" fill="#F09A64">
+                        <tspan x="221" y="18">field</tspan>
+                    </text>
+                    <line x1="3" y1="33" x2="425" y2="33" id="Line" stroke="#ACACAC" stroke-width="2" opacity="0.5" stroke-linecap="square"></line>
+                    <line x1="3" y1="78" x2="425" y2="78" id="Line" stroke="#ACACAC" stroke-width="2" opacity="0.5" stroke-linecap="square"></line>
+                    <text id="FragmentSpreadNode" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="18" font-weight="bold" letter-spacing="0.2842105" fill="#F0647D">
+                        <tspan x="0" y="62">FragmentSpreadNode</tspan>
+                    </text>
+                    <text id="...Frag" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="18" font-weight="bold" letter-spacing="0.2842105">
+                        <tspan x="221" y="62" fill="#F0647D">...</tspan>
+                        <tspan x="254.252632" y="62" fill="#F09A64">Frag</tspan>
+                    </text>
+                    <text id="InlineFragmentNode" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="18" font-weight="bold" letter-spacing="0.2842105" fill="#F0647D">
+                        <tspan x="0" y="108">InlineFragmentNode</tspan>
+                    </text>
+                    <text id="...-on-Type-{-...-}" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="18" font-weight="bold" letter-spacing="0.2842105">
+                        <tspan x="221" y="108" fill="#F0647D">...</tspan>
+                        <tspan x="254.252632" y="108" fill="#F09A64"> on Type { ... }</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-3" transform="translate(86.000000, 302.000000)" font-size="18" letter-spacing="0.284210509">
+                <text id="selections-=-[-]" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-weight="normal">
+                    <tspan x="18" y="38" fill="#F0647D">selections</tspan>
+                    <tspan x="115.342105" y="38" fill="#ACACAC"> = [</tspan>
+                    <tspan x="18" y="61" fill="#ACACAC"></tspan>
+                    <tspan x="18" y="84" fill="#ACACAC">]</tspan>
+                </text>
+                <text id="..." font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-weight="bold" fill="#F0647D">
+                    <tspan x="35" y="61">...</tspan>
+                </text>
+                <text id="}" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-weight="normal" line-spacing="24" fill="#ACACAC">
+                    <tspan x="0" y="102">}</tspan>
+                </text>
+                <text id="SelectionSetNode-{" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-weight="bold" line-spacing="24" fill="#ACACAC">
+                    <tspan x="0" y="18">SelectionSetNode</tspan>
+                    <tspan x="161.147368" y="18" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-weight="normal"> {</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

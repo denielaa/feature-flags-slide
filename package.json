@@ -1,0 +1,24 @@
+{
+  "name": "advanced-graphql-deck",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNCLICENSED",
+  "scripts": {
+    "start": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.21",
+    "@mdx-js/react": "^1.5.1",
+    "@philpl/gatsby-theme-mdx-deck": "^3.1.10",
+    "code-surfer": "3.0.0-beta.1",
+    "gatsby": "^2.17.1",
+    "gatsby-plugin-netlify": "^2.1.22",
+    "prism-react-renderer": "^1.0.2",
+    "prismjs": "^1.17.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "theme-ui": "^0.2.44"
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="175px" viewBox="0 0 500 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>graphql-requests</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="graphql-requests" transform="translate(-140.000000, -297.000000)">
+            <g id="Group-4" transform="translate(183.000000, 317.000000)">
+                <g id="Group-2" transform="translate(2.000000, 33.000000)">
+                    <path d="M22.304,54.352 L15.528,54.352 C9.032,54.352 6.344,50.824 6.344,46.848 C6.344,42.984 7.352,38.448 7.352,34.976 C7.352,31.336 5.672,28.76 0.296,28.76 L0.296,22.152 C5.672,22.096 7.408,19.912 7.408,16.552 C7.408,13.36 6.344,11.68 6.344,8.152 C6.344,4.176 9.704,0.76 15.36,0.76 L22.304,0.76 L22.304,7.368 C16.422963,6.98325926 14.4259753,8.64843347 14.5128681,11.8340612 L14.52,12.016 C14.576,13.752 15.248,16.44 15.248,18.512 C15.248,21.872 13.512,24.672 9.2,25.12 C13.68,25.512 15.248,28.704 15.248,32.288 C15.248,35.368 14.52,39.736 14.464,42.872 C14.296,46.232 16.256,48.024 22.304,47.632 L22.304,54.352 Z" id="{" fill="#F4B8C6" fill-rule="nonzero" opacity="0.72"></path>
+                    <text id="&quot;query&quot;:" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F0647D">
+                        <tspan x="20" y="53">"query":</tspan>
+                    </text>
+                    <text id="&quot;variables&quot;:" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F0647D">
+                        <tspan x="20" y="85">"variables":</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(280.000000, 33.000000)">
+                    <path d="M22.304,54.352 L15.528,54.352 C9.032,54.352 6.344,50.824 6.344,46.848 C6.344,42.984 7.352,38.448 7.352,34.976 C7.352,31.336 5.672,28.76 0.296,28.76 L0.296,22.152 C5.672,22.096 7.408,19.912 7.408,16.552 C7.408,13.36 6.344,11.68 6.344,8.152 C6.344,4.176 9.704,0.76 15.36,0.76 L22.304,0.76 L22.304,7.368 C16.422963,6.98325926 14.4259753,8.64843347 14.5128681,11.8340612 L14.52,12.016 C14.576,13.752 15.248,16.44 15.248,18.512 C15.248,21.872 13.512,24.672 9.2,25.12 C13.68,25.512 15.248,28.704 15.248,32.288 C15.248,35.368 14.52,39.736 14.464,42.872 C14.296,46.232 16.256,48.024 22.304,47.632 L22.304,54.352 Z" id="{" fill="#F4B8C6" fill-rule="nonzero" opacity="0.72"></path>
+                    <text id="&quot;data&quot;:" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F0647D">
+                        <tspan x="20" y="53">"data":</tspan>
+                    </text>
+                    <text id="&quot;errors&quot;:" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F0647D">
+                        <tspan x="20" y="85">"errors":</tspan>
+                    </text>
+                </g>
+                <text id="POST-Request" opacity="0.9" font-family="NeueHaasUnicaW1G-Bold, Neue Haas Unica W1G" font-size="19" font-weight="bold" letter-spacing="0.3" fill="#000000">
+                    <tspan x="0" y="22">POST Request</tspan>
+                </text>
+                <text id="Response" opacity="0.9" font-family="NeueHaasUnicaW1G-Bold, Neue Haas Unica W1G" font-size="19" font-weight="bold" letter-spacing="0.3" fill="#000000">
+                    <tspan x="278" y="22">Response</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

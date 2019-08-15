@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700px" height="233px" viewBox="0 0 700 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>results</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-6" transform="translate(-71.000000, -203.000000)">
+            <path d="M128.304,328.352 L121.528,328.352 C115.032,328.352 112.344,324.824 112.344,320.848 C112.344,316.984 113.352,312.448 113.352,308.976 C113.352,305.336 111.672,302.76 106.296,302.76 L106.296,296.152 C111.672,296.096 113.408,293.912 113.408,290.552 C113.408,287.36 112.344,285.68 112.344,282.152 C112.344,278.176 115.704,274.76 121.36,274.76 L128.304,274.76 L128.304,281.368 C122.422963,280.983259 120.425975,282.648433 120.512868,285.834061 L120.52,286.016 C120.576,287.752 121.248,290.44 121.248,292.512 C121.248,295.872 119.512,298.672 115.2,299.12 C119.68,299.512 121.248,302.704 121.248,306.288 C121.248,309.368 120.52,313.736 120.464,316.872 C120.296,320.232 122.256,322.024 128.304,321.632 L128.304,328.352 Z" id="{" fill="#F4B8C6" fill-rule="nonzero" opacity="0.72" style="mix-blend-mode: screen;"></path>
+            <text id="&quot;operation&quot;:" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F0647D">
+                <tspan x="140" y="313">"operation":</tspan>
+            </text>
+            <text id="Operation" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F09A64">
+                <tspan x="361" y="313">Operation</tspan>
+            </text>
+            <line x1="143" y1="328" x2="712" y2="328" id="Line" stroke="#ACACAC" stroke-width="2" opacity="0.5" stroke-linecap="square"></line>
+            <text id="&quot;data&quot;:" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F0647D">
+                <tspan x="140" y="358">"data":</tspan>
+            </text>
+            <text id="Data" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F09A64">
+                <tspan x="361" y="358">Data</tspan>
+            </text>
+            <text id="&quot;error&quot;:" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F0647D">
+                <tspan x="140" y="392">"error":</tspan>
+            </text>
+            <text id="Network-/-GraphQL-Er" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" letter-spacing="0.3473684" fill="#F09A64">
+                <tspan x="361" y="392">Network / GraphQL Errors </tspan>
+            </text>
+            <text id="Operation-Result" opacity="0.9" font-family="NeueHaasUnicaW1G-Bold, Neue Haas Unica W1G" font-size="19" font-weight="bold" letter-spacing="0.3" fill="#000000">
+                <tspan x="102" y="256">Operation Result</tspan>
+            </text>
+            <text id="*from-last-slide" font-family="NeueHaasUnicaW1G-Medium, Neue Haas Unica W1G" font-size="16" font-weight="400" line-spacing="24" letter-spacing="0.2526316" fill="#ACACAC">
+                <tspan x="476" y="305">*from last slide</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

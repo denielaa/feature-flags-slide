@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="816px" height="388px" viewBox="0 0 816 388" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>graphql-doc-vars</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="48.8755673%" x2="0%" y2="48.8755673%" id="linearGradient-1">
+            <stop stop-color="#FAF0FA" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F9ECF9" stop-opacity="0.796028191" offset="14.794844%"></stop>
+            <stop stop-color="#F4DEF4" stop-opacity="0.924314283" offset="75.4804604%"></stop>
+            <stop stop-color="#F3DCF3" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-3" transform="translate(-15.000000, -179.000000)">
+            <g id="Group" transform="translate(34.000000, 201.000000)">
+                <path d="M154.15084,151.007396 C150.436288,151.007396 155.713797,151.007396 169.983367,151.007396 C294.033256,151.007396 296.40642,30.7294196 366.859943,3.09953833 C377.397974,-1.03317944 384.777993,-1.03317944 389,3.09953833 L389,353.130784 C384.777993,356.956405 377.397974,356.956405 366.859943,353.130784 C296.121391,327.450568 294.033256,201.692037 169.983367,201.692037 C157.608034,201.692037 152.330525,201.692037 154.15084,201.692037 L154.15084,151.007396 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                <text id="query-Q($x:-String)" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" line-spacing="24" letter-spacing="0.3473684">
+                    <tspan x="0" y="187" fill="#F09A64">query</tspan>
+                    <tspan x="64.436842" y="187" fill="#F0647D"> Q($x: String) { ... }</tspan>
+                </text>
+                <text id="]" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684" fill="#ACACAC">
+                    <tspan x="390" y="318">]</tspan>
+                </text>
+                <text id="operation-=-'query'," font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684">
+                    <tspan x="390" y="55" fill="#F0647D">operation</tspan>
+                    <tspan x="498.726316" y="55" fill="#ACACAC"> = </tspan>
+                    <tspan x="532.768421" y="55" fill="#F09A64">'query'</tspan>
+                    <tspan x="624.3" y="55" fill="#ACACAC">,</tspan>
+                    <tspan x="390" y="79" fill="#F0647D">name</tspan>
+                    <tspan x="450.789474" y="79" fill="#ACACAC"> = </tspan>
+                    <tspan x="483.775579" y="78.3182068" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-weight="bold" fill="#ACACAC">NameNode</tspan>
+                    <tspan x="599.810526" y="79" fill="#ACACAC">(</tspan>
+                    <tspan x="613.357894" y="79" fill="#F09A64">'Q'</tspan>
+                    <tspan x="654" y="79" fill="#ACACAC">),</tspan>
+                    <tspan x="390" y="103" fill="#F0647D">variableDefinitions</tspan>
+                    <tspan x="604.5" y="103" fill="#ACACAC"> = [</tspan>
+                </text>
+                <text id="}" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684" fill="#ACACAC">
+                    <tspan x="367" y="341">}</tspan>
+                </text>
+                <text id="OperationDefinitionN" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" line-spacing="24" letter-spacing="0.3473684" fill="#ACACAC">
+                    <tspan x="367" y="31">OperationDefinitionNode</tspan>
+                    <tspan x="640.045473" y="31.6817932" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-weight="normal"> {</tspan>
+                </text>
+            </g>
+            <text id="VariableDefinitionNo" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-size="22" font-weight="bold" line-spacing="24" letter-spacing="0.3473684" fill="#ACACAC">
+                <tspan x="439" y="330">VariableDefinitionNode</tspan>
+                <tspan x="695.198105" y="330.681793" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-weight="normal"> {</tspan>
+            </text>
+            <text id="variable-=-VariableN" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684">
+                <tspan x="463" y="355.681793" fill="#F0647D">variable</tspan>
+                <tspan x="554.878947" y="355.681793" fill="#ACACAC"> = </tspan>
+                <tspan x="587.865052" y="355" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-weight="bold" fill="#ACACAC">VariableNode</tspan>
+                <tspan x="734.989473" y="355.681793" fill="#ACACAC"> {</tspan>
+            </text>
+            <text id="name-=-NameNode('var" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684">
+                <tspan x="487" y="379.681793" fill="#F0647D">name</tspan>
+                <tspan x="547.789474" y="379.681793" fill="#ACACAC"> = </tspan>
+                <tspan x="580.775579" y="379" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-weight="bold" fill="#ACACAC">NameNode</tspan>
+                <tspan x="696.810526" y="379.681793" fill="#ACACAC">(</tspan>
+                <tspan x="710.357894" y="379.681793" fill="#F09A64">'var'</tspan>
+                <tspan x="774.794736" y="379.681793" fill="#ACACAC">)</tspan>
+            </text>
+            <text id="}" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684" fill="#ACACAC">
+                <tspan x="463" y="403">}</tspan>
+            </text>
+            <text id="type-=-VariableNode" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684">
+                <tspan x="463" y="425.681793" fill="#F0647D">type</tspan>
+                <tspan x="513.889474" y="425.681793" fill="#ACACAC"> = </tspan>
+                <tspan x="546.875579" y="425" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-weight="bold" fill="#ACACAC">VariableNode</tspan>
+                <tspan x="694" y="425.681793" fill="#ACACAC"> {</tspan>
+            </text>
+            <text id="name-=-NameNode('Str" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684">
+                <tspan x="487" y="449.681793" fill="#F0647D">name</tspan>
+                <tspan x="547.789474" y="449.681793" fill="#ACACAC"> = </tspan>
+                <tspan x="580.775579" y="449" font-family="iAWriterQuattroS-Bold, iA Writer Quattro S" font-weight="bold" fill="#ACACAC">NameNode</tspan>
+                <tspan x="696.810526" y="449.681793" fill="#ACACAC">(</tspan>
+                <tspan x="710.357894" y="449.681793" fill="#F09A64">'String'</tspan>
+                <tspan x="805.536842" y="449.681793" fill="#ACACAC">)</tspan>
+            </text>
+            <text id="}" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684" fill="#ACACAC">
+                <tspan x="463" y="473">}</tspan>
+            </text>
+            <text id="}" font-family="iAWriterQuattroS-Regular, iA Writer Quattro S" font-size="22" font-weight="normal" line-spacing="24" letter-spacing="0.3473684" fill="#ACACAC">
+                <tspan x="443" y="496">}</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
