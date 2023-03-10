@@ -27,12 +27,48 @@ import FormidableIntro from '../assets/formidable-intro.svg';
 
 ---
 
+import Release from '../assets/release.webp';
+
+## Release a major new feature
+
+<img src={Release} width="40%" />
+
+---
+
+import SystemError from '../assets/system-error.webp';
+
+<img src={SystemError} width="80%" />
+
+---
+
+import UserError from '../assets/user-error.jpeg';
+
+<img src={UserError} width="40%" />
+
+---
+
+<L.Column>
+
+## Solutions
+
+<ul>
+  <li>Maintenance mode</li>
+  <li>Rollback</li>
+</ul>
+
+### ...but better option is _Feature Flags_
+
+</L.Column>
+
+---
+
 <L.Column>
 
 ## Today we'll learn about...
 
-- What is Feature Flags?
-- Benefits of Feature Flags for Continuous Delivery
+- What are Feature Flags?
+- Why are Feature Flags useful?
+- Drawbacks of Feature Flags
 - How to implement Feature Flags? _(Best Practices)_
 
 ### ...and how to _work remotely in Global Company_
@@ -41,20 +77,41 @@ import FormidableIntro from '../assets/formidable-intro.svg';
 
 ---
 
-<L.Column>
+import LightSwitch from '../assets/switch.jpg';
 
-## Use case
-_Database Migration_
+## What are Feature Flags?
 
-
-
-</L.Column>
+<img src={LightSwitch} width="10%" />
 
 ---
 
 import FinishedApp from '../assets/finished-app.jpg';
 
 <img src={FinishedApp} />
+
+---
+
+<Surfer>
+
+```js
+import { NewFeatureComponent } from './NewFeatureComponent';
+
+<NewFeatureComponent />
+```
+
+```diff 1:1
+const featureFlags = {
+  isFeatureEnabled: () => true
+};
+
+if (featureFlags.isFeatureEnabled()) {
+  <NewFeatureComponent />
+} else {
+  <OldFeatureComponent />
+}
+```
+
+</Surfer>
 
 ---
 
