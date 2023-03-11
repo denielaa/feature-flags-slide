@@ -66,21 +66,13 @@ import UserError from '../assets/user-error.jpeg';
 ## Today we'll learn about...
 
 - What are Feature Flags?
-- Why are Feature Flags useful?
+- Benefits of Feature Flags
 - Drawbacks of Feature Flags
 - How to implement Feature Flags? _(Best Practices)_
 
 ### ...and how to _work remotely in Global Company_
 
 </L.Column>
-
----
-
-import LightSwitch from '../assets/switch.jpg';
-
-## What are Feature Flags?
-
-<img src={LightSwitch} width="10%" />
 
 ---
 
@@ -100,7 +92,7 @@ if (featureFlags.isFeatureEnabled('NewPaymentOption')) {
 
 <Surfer>
 
-```js title="Release a new payment option"
+```js
 import { CreditCardPayment } from './CreditCardPayment';
 import { BitcoinPayment } from './BitcoinPayment';
 import { NewPaymentOption } from './NewPaymentOption';
@@ -117,6 +109,9 @@ const PaymentOptions = () => {
     </div>
   );
 };
+```
+
+```diff 3,12 title="Release a new payment option"
 ```
 
 ```js title="Release with Feature Flag"
@@ -145,49 +140,137 @@ const PaymentOptions = () => {
 
 ---
 
-## Type of Feature Flags
+import Switch from '../assets/switch.png';
 
+## What are Feature Flags?
 
-
-#### Boolean (On/Off)
-
----
-
-<L.Row>
-
-## Benefits of Feature Flags
-
-### Why is this simple if statement so powerful?
-
-</L.Row>
-
-- A schema formalises data dependencies and relations
-- GraphQL can be self-documenting and efficient
-- GraphQL can be optimised well on the frontend and backend
-
-### GraphQL's constraints are good for usability and automatic optimisations!
+<img src={Switch} width="60%" />
 
 ---
 
-## More Questions?
+
+## Why use Feature Flags?
+
+- Release anytime, Deployment != Release
+- Progressive Delivery
+- User Segmentation/Targeting
+- Kill Switch, Minimize Risk
+
+---
 
 <L.Column>
 
-LinkedIn [denielaa](https://www.linkedin.com/in/denielaa/)
+## Feature Flag use cases
+
+### _Why is this simple if statement so powerful?_
 
 </L.Column>
 
 ---
 
+import ProductTesting from '../assets/product-testing.png';
+
+### _Product Testing_
+
+<img src={ProductTesting} width="50%" />
+
+---
+
+import ABTesting from '../assets/ab-testing.webp';
+
+### _Conducting Experiments_
+
+<img src={ABTesting} width="50%" />
+
+---
+
+import DBMigration1 from '../assets/db-migration-1.svg';
+
+### _Database Migration_
+
+<DBMigration1 />
+
+---
+
+import DBMigration2 from '../assets/db-migration-2.svg';
+
+### _Database Migration_
+
+<DBMigration2 />
+
+---
+
+import DBMigration3 from '../assets/db-migration-3.svg';
+
+### _Database Migration_
+
+<DBMigration3 />
+
+---
+
+import DBMigration4 from '../assets/db-migration-4.svg';
+
+### _Database Migration_
+
+<DBMigration4 />
+
+---
+
+import DBMigration5 from '../assets/db-migration-5.svg';
+
+### _Database Migration_
+
+<DBMigration5 />
+
+---
+
+import DBMigration6 from '../assets/db-migration-6.svg';
+
+### _Database Migration_
+
+<DBMigration6 />
+
+---
+
+import cd from '../assets/cd.png';
+
+### _Continuous Delivery_
+
+<img src={cd} width="80%" />
+
+---
+
+<L.Column>
+
+## Implementing a feature flag
+
+- Glorified 'if statement'
+- Implement your own or library
+- Use a Saas provider (LaunchDarkly, Unleash, etc)
+- Ideally should be low latency, cached, have an audit trail
+
+</L.Column>
+
+---
+
+import KnightCapital from '../assets/knight-capital.png';
+
+<img src={KnightCapital} width="50%" />
+
+---
+
 <Background />
-<L.Row>
 
-## There's always more that can be done.
+## What's next?
 
-<Cereal />
-</L.Row>
+- Try Feature Flags with simple library
+- Research deeper into the Best Practices
+- Check out Trunk Based Development
 
-- Logging exchange.
-- Support for Subscriptions.
-- Rewriting the Exchange pipeline with streams.
-- Normalised caching.
+---
+
+## More Questions?
+
+- LinkedIn [denielaa](https://www.linkedin.com/in/denielaa/)
+
+Slide deck is available at [github/denielaa/](https://github.com/denielaa/feature-flags-slide)
