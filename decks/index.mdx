@@ -67,7 +67,7 @@ import UserError from '../assets/user-error.jpeg';
 
 - What are Feature Flags?
 - Benefits of Feature Flags
-- Drawbacks of Feature Flags
+- Trade-offs of Feature Flags
 - How to implement Feature Flags? _(Best Practices)_
 
 ### ...and how to _work remotely in Global Company_
@@ -155,6 +155,7 @@ import Switch from '../assets/switch.png';
 - Progressive Delivery
 - User Segmentation/Targeting
 - Kill Switch, Minimize Risk
+- Blue/Green Deployment
 
 ---
 
@@ -244,9 +245,8 @@ import cd from '../assets/cd.png';
 
 ## Implementing a feature flag
 
-- Glorified 'if statement'
-- Implement your own or library
-- Use a Saas provider (LaunchDarkly, Unleash, etc)
+- Homemade solution
+- Use a Saas provider (LaunchDarkly, *Unleash*, etc)
 - Ideally should be low latency, cached, have an audit trail
 
 </L.Column>
@@ -255,7 +255,66 @@ import cd from '../assets/cd.png';
 
 import KnightCapital from '../assets/knight-capital.png';
 
-<img src={KnightCapital} width="50%" />
+<img src={KnightCapital} width="40%" />
+
+---
+
+import FTExplosion from '../assets/ft-explosion.jpg';
+
+<L.Column>
+
+## Trade-offs
+
+- Increase complexity in the code
+  - Reduced visibility, readability, and maintainability
+- Technical debts
+- Performance impact
+- More code to *(maintain and test)*
+- Combinatorial explosion
+
+</L.Column>
+
+<img src={FTExplosion} width="40%" />
+
+---
+
+<L.Column>
+
+## Best Practices
+
+- Include FFs as part of the *User Story planning*, *acceptance criteria*, and *Definition of Done*
+- Standardize the naming convention
+  - Clear and descriptive names
+  - Consistent naming
+  - Consistent prefix and suffix: `featureXxxEnabled`
+  - _Add FF creation date_
+
+</L.Column>
+
+---
+
+<L.Column>
+
+## Best Practices (cont'd)
+
+- Document the FFs with its purpose and parts of the application that are affected
+- _Never reuse FFs_, keep their surface area limited
+- Collect and analyze FFs metrics on a regular basis
+- Have a process to remove FFs
+
+</L.Column>
+
+---
+
+<L.Column>
+
+## Resources
+
+- [Intentional Deployment: Best Practices for Feature Flag Management](https://www.youtube.com/watch?v=AD8LSdy7b2s)
+- [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
+- [When (not) to use Feature Flags](https://www.qwan.eu/2021/02/01/feature-toggles.html)
+
+</L.Column>
 
 ---
 
