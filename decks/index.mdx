@@ -63,11 +63,11 @@ import UserError from '../assets/user-error.jpeg';
 
 <L.Column>
 
-## Today we'll learn about...
+## We'll learn about...
 
-- What are Feature Flags?
-- Benefits of Feature Flags
-- Trade-offs of Feature Flags
+- Definition of Feature Flags
+- Benefits and Use Cases
+- Trade-offs
 - How to implement Feature Flags? _(Best Practices)_
 
 ### ...and how to _work remotely in Global Company_
@@ -79,7 +79,7 @@ import UserError from '../assets/user-error.jpeg';
 <Surfer>
 
 ```js title="Feature Flags"
-if (featureFlags.isFeatureEnabled('NewPaymentOption')) {
+if (featureFlags.isFeatureEnabled('newPaymentOption')) {
   RenderNewPaymentOption()
 } else {
   RenderOldPaymentOption()
@@ -114,6 +114,25 @@ const PaymentOptions = () => {
 ```diff 3,12 title="Release a new payment option"
 ```
 
+```js title="Hacky solution"
+import { CreditCardPayment } from './CreditCardPayment';
+import { BitcoinPayment } from './BitcoinPayment';
+// import { NewPaymentOption } from './NewPaymentOption';
+
+const PaymentOptions = () => {
+  return (
+    <div>
+      <h3>Select payment option:</h3>
+      <ul>
+        <li><CreditCardPayment /></li>
+        <li><BitcoinPayment /></li>
+        // <li><NewPaymentOption /></li>
+      </ul>
+    </div>
+  );
+};
+```
+
 ```js title="Release with Feature Flag"
 import { CreditCardPayment } from './CreditCardPayment';
 import { BitcoinPayment } from './BitcoinPayment';
@@ -127,7 +146,7 @@ const PaymentOptions = () => {
       <ul>
         <li><CreditCardPayment /></li>
         <li><BitcoinPayment /></li>
-        {featureFlags.isFeatureEnabled('NewPaymentOption') &&
+        {featureFlags.isFeatureEnabled('newPaymentOption') &&
           <li><NewPaymentOption /></li>
         }
       </ul>
@@ -147,7 +166,6 @@ import Switch from '../assets/switch.png';
 <img src={Switch} width="60%" />
 
 ---
-
 
 ## Why use Feature Flags?
 
@@ -241,6 +259,14 @@ import cd from '../assets/cd.png';
 
 ---
 
+import Rollout from '../assets/gradually-rollout.png';
+
+### _Rolling out features gradually_
+
+<img src={Rollout} width="80%" />
+
+---
+
 <L.Column>
 
 ## Implementing a feature flag
@@ -287,7 +313,6 @@ import FTExplosion from '../assets/ft-explosion.jpg';
   - Clear and descriptive names
   - Consistent naming
   - Consistent prefix and suffix: `featureXxxEnabled`
-  - _Add FF creation date_
 
 </L.Column>
 
@@ -298,9 +323,10 @@ import FTExplosion from '../assets/ft-explosion.jpg';
 ## Best Practices (cont'd)
 
 - Document the FFs with its purpose and parts of the application that are affected
+- Creation/_Expiration_ dates
+- Have a process to remove FFs
 - _Never reuse FFs_, keep their surface area limited
 - Collect and analyze FFs metrics on a regular basis
-- Have a process to remove FFs
 
 </L.Column>
 
@@ -325,6 +351,40 @@ import FTExplosion from '../assets/ft-explosion.jpg';
 - Try Feature Flags with simple library
 - Research deeper into the Best Practices
 - Check out Trunk Based Development
+
+---
+
+## I've worked at...
+
+- Supercell Media (Australian Agency)
+- Several overseas clients (Upwork, formerly oDesk)
+- _Sunway Group_
+- Maybank Malaysia
+- Food Market Hub
+- Alien Worlds (Biggest Blockchain Game)
+- Clearview (US-based Agency)
+
+---
+
+## I've learned the importance of...
+
+- **Communication** (language) is key
+- Mindset of going global
+- Team contribution, not only skills
+- _LinkedIn_ and Github
+
+---
+
+<L.Column>
+
+## How to use LinkedIn better?
+
+- Don't ignore DMs from recruiters
+- Get connected with related people (Recruiters, Hiring Managers, etc)
+- Follow companies you're interested in
+- Connect/Follow people you're interested in (CTO, HoE, SE)
+
+</L.Column>
 
 ---
 
