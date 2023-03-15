@@ -138,37 +138,6 @@ const PaymentOptions = () => {
 
 ---
 
-<Surfer theme={vsDark}>
-
-```js title="Homemade Feature Flags"
-const features = {
-  feature1: true,
-  feature2: false,
-  feature3: true,
-}
-
-// Implementation
-if (features['feature1']) {
-  // do something
-}
-```
-
-```js title="Store in ENV"
-// .env file
-FF_FEATURE1=true
-FF_FEATURE2=false
-FF_FEATURE3=true
-
-// Implementation
-if (process.env.FF_FEATURE1 === 'true') {
-  // do something
-}
-```
-
-</Surfer>
-
----
-
 ## Why use Feature Flags?
 
 - Release anytime, Deployment != Release
