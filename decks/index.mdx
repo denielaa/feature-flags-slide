@@ -54,7 +54,11 @@ import Switch from '../assets/switch.png';
 <Surfer theme={vsDark}>
 
 ```js title="Feature Flags"
-if (featureFlags.isFeatureEnabled('newPaymentOption')) {
+const features = {
+  newPaymentOption: true,
+}
+
+if (features['newPaymentOption']) {
   RenderNewPaymentOption()
 } else {
   RenderOldPaymentOption()
@@ -128,6 +132,37 @@ const PaymentOptions = () => {
     </div>
   );
 };
+```
+
+</Surfer>
+
+---
+
+<Surfer theme={vsDark}>
+
+```js title="Homemade Feature Flags"
+const features = {
+  feature1: true,
+  feature2: false,
+  feature3: true,
+}
+
+// Implementation
+if (features['feature1']) {
+  // do something
+}
+```
+
+```js title="Store in ENV"
+// .env file
+FF_FEATURE1=true
+FF_FEATURE2=false
+FF_FEATURE3=true
+
+// Implementation
+if (process.env.FF_FEATURE1 === 'true') {
+  // do something
+}
 ```
 
 </Surfer>
@@ -239,7 +274,7 @@ import Rollout from '../assets/gradually-rollout.png';
 ## Implementing a feature flag
 
 - Homemade solution
-- Use a Saas provider (LaunchDarkly, *Unleash*, etc)
+- Use a SaaS provider (LaunchDarkly, *Unleash*, etc)
 - Ideally should be low latency, cached, have an audit trail
 
 </L.Column>
@@ -296,6 +331,13 @@ import FTExplosion from '../assets/ft-explosion.jpg';
 - Collect and analyze FFs metrics on a regular basis
 
 </L.Column>
+
+---
+
+## DEMO ✊✊✊
+
+- https://github.com/denielaa/feature-flags-demo
+- https://feature-flags-demo-two.vercel.app/
 
 ---
 
